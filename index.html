@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto World of Warcraft</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="emblema-all" src="./src/images/logo-all.png" alt="Emblema Aliança">
+        <img class="logo" src="./src/images/logo.png" alt="Logo WoW">
+        <img class="emblema" src="./src/images/horda-emblema.png" alt="Emblema Horda">
+        
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="arthas" data-name="Arthas Lich King"
+                data-description="Filho do rei de Lordaeron. Sua obsessão em salvar seu povo acabou por corrompe-lo, tomando em seu poder a Frostmourne que o levou a perdição, se tornando um Death Knight.">
+                    <img src="./src/images/card-arthas.jpg" alt="Personagem Arthas">
+                </li>
+                <li class="personagem" id="dh" data-name="Illidan Stormrage"
+                data-description="Irmão gemeo de Malfurion Stormrage, foi uma vez um extraordinário e conhecido feiticeiro, a extensão dos poderes dele hoje é difícil de classificar, devido aos poderes dele aumentarem bastante como um caçador de demônios.">
+                    <img src="./src/images/card-dh.jpg" alt="Personagem Illidan">
+                </li>
+                <li class="personagem" id="kael" data-name="Kael'thas Sunstrider"
+                data-description="Era o príncipe de Quel'Thalas, o último da dinastia Sunstrider, bem como um membro sênior do Kirin Tor.">
+                    <img src="./src/images/card-kael.jpg" alt="Personagem Kael'thas">
+                </li>
+                <li class="personagem" id="malfu" data-name="Malfurion Stormrage"
+                data-description="Irmão gemeo de Illidan Stormrage é um elfo noturno que se tornou o primeiro dos druidas, antes da Guerra dos Antigos.">
+                    <img src="./src/images/card-malfu.jpg" alt="Personagem Malfurion">
+                </li>
+                <li class="personagem" id="orco"
+                data-name="Thrall"
+                data-description="Filho de Durotan, era o Chefe Guerreiro da nova e restaurada Horda, e governante das terras vermelhas de Durotar, em Kalimdor.">
+                    <img src="./src/images/card-orco.jpg" alt="Personagem Thrall">
+                </li>
+                <li class="personagem" id="sylvanas" data-name="Sylvanas Windrunner"
+                data-description="No passado Sylvana foi a general-patrulheira de Luaprata, uma comandante encarregada de defender o reino dos elfos de Quel'thalas. Agora é um banshee.">
+                    <img src="./src/images/card-sylvanas.jpg" alt="Personagem Sylvanas">
+                </li>
+                <li class="personagem" id="tauren" data-name="Baine Bloodhoof"
+                data-description="Filho do idoso Cairne Bloodhoof, Baine lutou ao lado do seu pai com orgulho e respeito, e continuou a defender o seu povo quando os Taurens estableceram uma casa para eles mesmos em Mulgore.">
+                    <img src="./src/images/card-tauren.jpg" alt="Personagem Baine">
+                </li>
+                <li class="personagem" id="troll" data-name="Vol'jin"
+                data-description="O caçador das sombras Vol'jin (Shado-Pan como Vol'jian), filho de Sen'jin, era o Chefe Guerreiro da Horda, assim como o chefe da tribo Darkspear e governante legítimo de Durotar e das Ilhas Echo.">
+                    <img src="./src/images/card-troll.jpg" alt="Personagem Vol'jin">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/images/card-arthas.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Arthas Lich King</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Filho do rei de Lordaeron. Sua obsessão em salvar seu povo acabou por corrompe-lo, tomando em seu poder a Frostmourne que o levou a perdição, se tornando um Death Knight.</p>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
