@@ -7,5 +7,5 @@ Layout de seleção de personagem de World of Warcraft.
   <li>CSS3</li>
   <li>JavaScript</li>
 </ul>
-## Link :D
-https://freitesfran.github.io/WoW/
+Link :D
+<br>https://freitesfran.github.io/WoW/
